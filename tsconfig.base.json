@@ -4,6 +4,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "types": [
+      "googlemaps"
+    ],
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -20,6 +23,7 @@
       "@shared-components/*": ["src/app/shared/components/*"],
       "@shared-pipes/*": ["src/app/shared/pipes/*"],
       "@shared-directive/*": ["src/app/shared/directive/*"],
+      "@core/*": ["src/app/core/*"],
       "@env/*": ["src/environments/*"]
     }
   },

@@ -1,4 +1,4 @@
-export const EndPoints: {
+export const ENDPOINTS: {
   readonly LIST_LINHAS: '?a=nc&p=%&t=o';
   readonly LIST_ITINERARIO_POR_LINHA: '?a=il&p=';
   readonly LINHA_POR_NOME: '?a=nc&t=o&p=';
